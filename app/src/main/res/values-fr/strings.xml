@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Learn Everyday</string>
-    <string name="language">Langue</string>
-    <string name="helpText">Aidez-moi</string>
-    <string name="chooseLanguage">Choisissez la langue\n(App redémarrage nécessaire)</string>
-    <string name="swipeText">Balayez vers le bas pour nouvelle page</string>
-    <string name="tapText">Touchez pour article de Wikipedia</string>
-</resources>
