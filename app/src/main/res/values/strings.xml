@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Learn Everyday</string>
+    <string name="language">Language</string>
+    <string name="helpText">Help</string>
+    <string name="chooseLanguage">Choose language\n(App restart required)</string>
+    <string name="swipeText">Swipe down for new page</string>
+    <string name="tapText">Tap for Wikipedia article</string>
+    <string name="title_activity_web">WebActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

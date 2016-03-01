@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Learn Everyday</string>
+    <string name="language">Språk</string>
+    <string name="helpText">Hjelp</string>
+    <string name="chooseLanguage">Velg språk\n(App omstart nødvendig)</string>
+    <string name="swipeText">Sveip ned for ny side</string>
+    <string name="tapText">Tap for Wikipedia artikkel</string>
+</resources>

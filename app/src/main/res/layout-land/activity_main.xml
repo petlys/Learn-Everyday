@@ -1,0 +1,57 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/articleTitle"
+            android:layout_gravity="center_horizontal"
+            android:background="#64010101"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/articleContent"
+            android:layout_gravity="center_horizontal"
+            android:scrollbars = "vertical"
+            android:padding="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/articleTitle"
+            android:layout_toEndOf="@+id/imageView" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageLoading"
+            android:indeterminate="false"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/articleContent"
+            android:layout_marginEnd="95dp" />
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.SwipeRefreshLayout>
