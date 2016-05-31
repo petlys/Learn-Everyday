@@ -5,5 +5,5 @@ This app will let you browse random Wikipedia pages in an intuitive and beautifu
 
 Supports English, German, French, and Norwegian. 
 
-![Image of GUI](https://github.com/petlys/Learn-Everyday/blob/master/res/raw/gui.png)
+![Image of GUI](https://raw.githubusercontent.com/petlys/Learn-Everyday/055f51be9d1fadbec5ac486203644d9968ee4339/app/src/main/res/raw/gui.png)
 
